@@ -274,9 +274,4 @@ hardy_vs_austen_plot
 
 # Shiny interactive element
 
-<html>
-<head><title>Shiny App Iframe</title></head>
-<body>
-<iframe id="example1" src="https://stefanveleski.shinyapps.io/popularity/" style="border: none; width: 100%; height: 850px" frameborder="0"></iframe>
-</body>
-</html>
+knitr::include_url(https://stefanveleski.shinyapps.io/popularity/)
