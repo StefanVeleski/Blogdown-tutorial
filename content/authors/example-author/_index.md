@@ -1,5 +1,5 @@
 ---
-avatar: images/icon.png
+avatar: images/limmy.png
 bio: Aenean vel bibendum quam. Aliquam at mollis quam. Proin efficitur.
 organization:
   name: Example Organization
