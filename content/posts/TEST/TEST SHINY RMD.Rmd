@@ -272,8 +272,11 @@ hardy_vs_austen_plot <- ggbetweenstats(
 hardy_vs_austen_plot
 ```
 
-# Shiny interactive element 
-```{r echo = FALSE}
-knitr::include_app("https://stefanveleski.shinyapps.io/popularity/", 
-height = "600px")
-```
+# Shiny interactive element
+
+<html>
+<head><title>Shiny App Iframe</title></head>
+<body>
+<iframe id="example1" src="https://stefanveleski.shinyapps.io/popularity/" style="border: none; width: 100%; height: 850px" frameborder="0"></iframe>
+</body>
+</html>
