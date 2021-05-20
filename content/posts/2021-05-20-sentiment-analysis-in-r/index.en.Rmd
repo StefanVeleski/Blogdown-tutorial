@@ -261,3 +261,5 @@ hardy_vs_austen_plot <- ggbetweenstats(
 )
 hardy_vs_austen_plot
 ```
+
+knitr::include_url("https://stefanveleski.shinyapps.io/popularity/", height = "550px")
