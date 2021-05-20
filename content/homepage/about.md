@@ -2,7 +2,7 @@
 title: R for students of literature
 draft: false
 role: Department of English and American Studies
-avatar: images/icon.png
+avatar: images/limmy.png
 bio: Introduction to R programming 
 organization:
   name: Masaryk University
