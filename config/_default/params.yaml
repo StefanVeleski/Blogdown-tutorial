@@ -12,8 +12,8 @@ titleSeparator:
 colorScheme:
 
 # E.g. Person, Organization, LocalBusiness, Project, EducationalOrganization
-siteType: Person
-icon: images/icon.png
+siteType: Project
+icon: images/limmy.png
 publisherName: C. Wang
 publisherLogo:
 
