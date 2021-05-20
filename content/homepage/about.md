@@ -1,22 +1,22 @@
 ---
-title: Example Author
+title: R for students of literature
 draft: false
-role: Example Role
+role: Department of English and American Studies
 avatar: images/icon.png
-bio: Aenean vel bibendum quam. Aliquam at mollis quam. Proin efficitur.
+bio: Introduction to R programming 
 organization:
-  name: Example Organization
-  url: https://example.com/
+  name: Masaryk University
+  url: https://www.muni.cz/en
 social:
   - icon: envelope
     iconPack: fas
-    url: mailto:example@example.com
+    url: mailto:veleski@phil.muni.cz
   - icon: twitter
     iconPack: fab
-    url: https://example.com/
+    url: https://twitter.com/stefanveleski
   - icon: github
     iconPack: fab
-    url: https://example.com/
+    url: https://github.com/StefanVeleski
 
 weight: 1
 widget:
@@ -45,9 +45,7 @@ widget:
 
 ## Self Introduction
 
-Cras ex dui, tristique a libero eget, consectetur semper ligula. Nunc augue arcu, malesuada a nisi et, molestie finibus metus. Sed lacus odio, ultricies a nisl vitae, sollicitudin tempor ipsum. Vivamus quis feugiat arcu. Sed mi nunc, efficitur quis tellus vitae, posuere mattis metus. Phasellus in mattis dui. Nullam blandit, augue non ullamcorper dapibus, lacus dui molestie massa, in iaculis purus lectus eu lectus. Duis hendrerit lacinia tellus, sit amet feugiat dolor placerat id. Aenean ac velit massa. Vivamus feugiat dui at magna viverra, ut dictum nunc rutrum. Duis eget sapien finibus, lobortis orci id, vestibulum tellus. Maecenas lobortis urna libero, quis fermentum lectus lobortis nec. Nullam laoreet volutpat libero, ac mattis magna ullamcorper quis. Duis eget ipsum eu nisi mattis cursus et vitae turpis.
-
-Aliquam pretium diam eget leo feugiat finibus. Donec malesuada commodo ipsum. Aenean a massa in lacus venenatis vestibulum. Duis vel sem quis elit iaculis consectetur et quis dolor. Morbi eu ipsum hendrerit, malesuada ante sed, dapibus est. Suspendisse feugiat nulla ut gravida convallis. Phasellus id massa posuere, rhoncus justo ut, porttitor dolor. Nulla ultrices malesuada egestas. Nunc fermentum tincidunt sem ac vulputate. Donec mollis sollicitudin justo eget varius. Donec ornare velit et felis blandit, id molestie sapien lobortis. Morbi eget tristique justo. Mauris posuere, nibh eu laoreet ultricies, ligula erat iaculis sapien, vel dapibus lacus libero ut diam. Etiam viverra ante felis, et scelerisque nunc pellentesque vitae. Praesent feugiat dictum molestie.
+This course aims to introduce students to the R programming language. The course is intended to give students a gentle push towards the path of programming, which may either take them towards a more data driven approach in their MA studies, or towards careers that mix insight from the humanities and programming and/or data analysis, such as technical writing. By the end of the course, the students will be acquainted with the fundamentals of R, version control with Github, the basics of computational analysis of text, R Markdown as a markup language, and how to create a website in R Studio with the "blogdown" package. Moreover, the students will begin to think about the application of quantitative approaches to the study of literature and will acquire the necessary knowledge to continue independent work and further develop their programming skills according to their academic or professional needs.
 
 ## Details  
 
