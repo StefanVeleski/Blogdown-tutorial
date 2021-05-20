@@ -5,7 +5,7 @@ date: '2021-05-20'
 slug: []
 categories: []
 tags: []
-description: null
+description: A blogpost written in R Markdown
 toc: yes
 authors: []
 series: []
@@ -13,9 +13,6 @@ lastmod: '2021-05-20T14:28:10+02:00'
 featuredVideo: null
 featuredImage: null
 ---
-A blogpost written in R Markdown
-<!--more-->
-
 # Tidytext sentiment analysis
 
 ## Importing and wrangling the data
