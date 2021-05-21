@@ -4,12 +4,13 @@ author: "Frida Gomam"
 date: 2020-12-01T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
+runtime: shiny
 ---
 
 <script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
 
 
-<div id="r-markdown" class="section level1">
+<div id="section-r-markdown" class="section level1">
 <h1>R Markdown</h1>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
 <p>You can embed an R code chunk like this:</p>
@@ -31,7 +32,7 @@ fit
 ## (Intercept)        speed  
 ##     -17.579        3.932</code></pre>
 </div>
-<div id="including-plots" class="section level1">
+<div id="section-including-plots" class="section level1">
 <h1>Including Plots</h1>
 <p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
 <pre class="r"><code>par(mar = c(0, 1, 0, 1))
@@ -47,4 +48,10 @@ pie(
 Figure 1: A fancy pie chart.
 </p>
 </div>
+</div>
+<div id="section-including-a-shiny-app-in" class="section level1">
+<h1>Including a Shiny app in</h1>
+<pre class="r"><code>knitr::include_app(&quot;https://stefanveleski.shinyapps.io/popularity/&quot;, height = &quot;550px&quot;)</code></pre>
+<iframe src="https://stefanveleski.shinyapps.io/popularity/?showcase=0" width="672" height="550px">
+</iframe>
 </div>
