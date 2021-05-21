@@ -12,6 +12,8 @@ series: []
 lastmod: '2021-05-20T14:28:10+02:00'
 featuredVideo: null
 featuredImage: null
+output: blogdown::html_page
+runtime: shiny
 ---
 # Tidytext sentiment analysis
 
@@ -25,6 +27,8 @@ library(syuzhet)
 library(gutenbergr)
 library(tidytext)
 library(textdata)
+library(shiny)
+library(widgetframe)
 ```
 
 Now let's download metadata for Hardy's works and manually select all novels (metadata
@@ -262,4 +266,4 @@ hardy_vs_austen_plot <- ggbetweenstats(
 hardy_vs_austen_plot
 ```
 
-knitr::include_app("https://stefanveleski.shinyapps.io/popularity/", height = "550px")
+<iframe height="550" width="100%" frameborder="no" src="https://stefanveleski.shinyapps.io/popularity/"> </iframe>
