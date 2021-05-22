@@ -12,8 +12,6 @@ series: []
 lastmod: '2021-05-20T14:28:10+02:00'
 featuredVideo: null
 featuredImage: null
-output: blogdown::html_page
-runtime: shiny
 ---
 # Tidytext sentiment analysis
 
@@ -265,5 +263,3 @@ hardy_vs_austen_plot <- ggbetweenstats(
 )
 hardy_vs_austen_plot
 ```
-
-<iframe height="550" width="100%" frameborder="no" src="https://stefanveleski.shinyapps.io/popularity/"> </iframe>
