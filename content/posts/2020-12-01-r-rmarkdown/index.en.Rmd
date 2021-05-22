@@ -1,9 +1,10 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
+title: "Inserting Shiny elements in a R markdown file"
+author: "Stefan Veleski"
+date: 2021-5-20T21:13:14-05:00
 categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+tags: ["R Markdown", "plot", ]
+runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
@@ -34,4 +35,14 @@ pie(
   col = c('#0292D8', '#F7EA39', '#C4B632'),
   init.angle = -50, border = NA
 )
+```
+
+# Including a Shiny app in R markdown
+
+There are two things that you will need to do:
+
+1. Insert the phrase "runtime: shiny" in the YAML header
+2. Add a code chunk with the following code: (add echo = FALSE to the chunk options in the curled brackets if you'd prefer not to print the code)
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+knitr::include_app("https://stefanveleski.shinyapps.io/popularity/", height = "550px")
 ```
