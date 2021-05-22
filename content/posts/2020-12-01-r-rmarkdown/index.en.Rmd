@@ -11,7 +11,7 @@ runtime: shiny
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# R Markdown
+# R Markdown AAAAAAAAAAAAA
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
@@ -44,6 +44,6 @@ There are two things that you will need to do:
 1. Insert the phrase "runtime: shiny" in the YAML header
 2. Add a code chunk with the following code: (add echo = FALSE to the chunk options in the curled brackets if you'd prefer not to print the code)
 
-```{r message=FALSE, warning=FALSE, paged.print=FALSE, echo = FALSE}
+```{r message=FALSE, warning=FALSE, paged.print=FALSE, echo=FALSE}
 knitr::include_app("https://stefanveleski.shinyapps.io/popularity/", height = "550px")
 ```
