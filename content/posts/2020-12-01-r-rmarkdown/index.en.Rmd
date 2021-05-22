@@ -43,6 +43,7 @@ There are two things that you will need to do:
 
 1. Insert the phrase "runtime: shiny" in the YAML header
 2. Add a code chunk with the following code: (add echo = FALSE to the chunk options in the curled brackets if you'd prefer not to print the code)
+
 ```{r message=FALSE, warning=FALSE, paged.print=FALSE}
 knitr::include_app("https://stefanveleski.shinyapps.io/popularity/", height = "550px")
 ```
